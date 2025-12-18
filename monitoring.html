@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartDustBin Monitoring Dashboard</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="asset/styles.css">
+</head>
+<body>
+
+<div class="header">
+    <h2><i class="fa-solid fa-trash-can"></i> SmartDustBin Monitoring</h2>
+    <p class="subtitle">Real-time Smart Waste Monitoring System</p>
+    <div class="line"></div>
+</div>
+
+<div class="dashboard">
+    <div class="card" data-category="cans">
+        <div class="status-badge">FULL</div>
+        <div class="card-header">
+            <div class="card-title">
+                <span class="icon cans"><img src="asset/icon_cans.png" alt="Cans icon"></span>
+                Cans
+            </div>
+        </div>
+        <img src="asset/sample_image_cans.jpg" alt="Cans" class="sample-image">
+        
+        <div class="device-info">
+            <div class="device-row"><span class="label">Distance:</span> <span class="value distance" data-category="cans">-- cm</span></div>
+        </div>
+    </div>
+
+    <div class="card" data-category="papers">
+        <div class="status-badge">FULL</div>
+        <div class="card-header">
+            <div class="card-title">
+                <span class="icon papers"><img src="asset/icon_papers.png" alt="Papers icon"></span>
+                Papers
+            </div>
+        </div>
+        <img src="asset/sample_image_paper.jpg" alt="Papers" class="sample-image">
+        
+        <div class="device-info">
+            <div class="device-row"><span class="label">Distance:</span> <span class="value distance" data-category="papers">-- cm</span></div>
+        </div>
+    </div>
+
+    <div class="card" data-category="plastics">
+        <div class="status-badge">FULL</div>
+        <div class="card-header">
+            <div class="card-title">
+                <span class="icon plastics"><img src="asset/icon_plastic.png" alt="Plastics icon"></span>
+                Plastics
+            </div>
+        </div>
+        <img src="asset/sample_image_plastic.jpg" alt="Plastics" class="sample-image">
+        
+        <div class="device-info">
+            <div class="device-row"><span class="label">Distance:</span> <span class="value distance" data-category="plastics">-- cm</span></div>
+        </div>
+    </div>
+</div>
+
+<div class="global-status" aria-hidden="false">
+    <div class="status-box servo-box">
+        <h4>Servo Status</h4>
+        <div class="servo-single">
+            <div class="servo-item"><span class="label">Servo</span><span class="value servo-value">--</span></div>
+        </div>
+    </div>
+    <div class="status-box stepper-box">
+        <h4>Stepper Position</h4>
+        <div class="stepper-value">--</div>
+    </div>
+</div>
+
+<div id="alertModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-content" role="document">
+        <span id="alertClose" class="modal-close" aria-label="Close">&times;</span>
+        <h3>Peringatan</h3>
+        <p id="alertMessage">Sampah masuk ke compartment yang salah</p>
+        <button id="alertOk" class="modal-ok">OK</button>
+    </div>
+</div>
+
+<button id="testWrongBtn" class="test-btn" title="Test alert"><i class="fa-solid fa-bell"></i></button>
+
+<div class="footer">SmartDustBin © 2025 — Monitoring Your Waste, Protecting Our Environment</div>
+
+<script src="js/monitoring.js" defer></script>
+
+</body>
+</html>
