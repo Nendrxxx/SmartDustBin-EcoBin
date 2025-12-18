@@ -1,6 +1,6 @@
 # SmartDustBin-EcoBin
 # 🗑️ SmartDustBin: Sistem Pemilah Sampah Otomatis Berbasis AI
-
+[![Watch the video](https://img.youtube.com/vi/iisU1cL1OIc/0.jpg)](https://www.youtube.com/watch?v=iisU1cL1OIc)
 SmartDustBin adalah solusi manajemen sampah pintar yang mengintegrasikan **Artificial Intelligence (TensorFlow Lite)** dan **Internet of Things (IoT)** untuk mendeteksi, memilah, dan memantau kapasitas sampah secara otomatis dan real-time.
 
 ## 🌟 Fitur Utama
@@ -57,6 +57,8 @@ Sistem menggunakan arsitektur komunikasi dua arah:
     python min.py
     ```
 5.  Buka browser dan akses IP Raspberry Pi pada port 5000.
+<img width="1920" height="1080" alt="PPT IDE DESIOT (1)" src="https://github.com/user-attachments/assets/bbf6bb81-32e5-4939-8ffa-0a89b350933e" />
+<img width="1920" height="1080" alt="PPT IDE DESIOT" src="https://github.com/user-attachments/assets/070fce6d-85a9-4f71-8371-98a6ee820d8f" />
 
 ---
 **SmartDustBin © 2025** — *Protecting Our Environment with Smart Technology.*
