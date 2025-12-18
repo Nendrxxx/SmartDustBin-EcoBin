@@ -1,6 +1,6 @@
 # SmartDustBin-EcoBin
 # 🗑️ SmartDustBin: Sistem Pemilah Sampah Otomatis Berbasis AI
-
+[![Watch the Reel](https://www.instagram.com/reel/DRtVrsEk9DJ/media/?size=l)](https://www.instagram.com/reel/DRtVrsEk9DJ/)
 SmartDustBin adalah solusi manajemen sampah pintar yang mengintegrasikan **Artificial Intelligence (TensorFlow Lite)** dan **Internet of Things (IoT)** untuk mendeteksi, memilah, dan memantau kapasitas sampah secara otomatis dan real-time.
 
 ## 🌟 Fitur Utama
